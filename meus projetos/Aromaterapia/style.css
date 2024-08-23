@@ -13,7 +13,9 @@ padding: 0px;
 --cor04:#1a5c37;
 --cor05:#063d1e;
 
+
 --fontepadrao: Arial, Verdana, Helvetica, sans-serif;
+}
 
 body {
     background-color: var(--cor00);
@@ -32,7 +34,8 @@ header >h1 {
     color: white;
     font-size: 3em;
     font-weight: normal;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.268);
 }
 
@@ -80,6 +83,7 @@ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.526);
 border-bottom-left-radius: 10px;
 border-bottom-right-radius: 10px;
 }
+
  main h1 {
  text-align: center;
  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.268);
