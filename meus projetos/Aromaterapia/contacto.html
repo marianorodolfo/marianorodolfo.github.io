@@ -10,34 +10,100 @@
     }
 
     main{
-    padding: 20px;
+    padding: 1px 1px 10px 25px;
     min-width: 300px;
-    max-width: 1000px;
+    max-width: 450px;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom:0px;
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.526);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-}
+    }
+
+    h1 {
+    text-align: center;
+    margin-bottom: 0px;
+    }
+
+    p {
+    text-align: center;
+    }
 
     main > h1 {
+    margin-top: 1px;
     font-variant: small-caps;
+    }
+
+    main > p {
+    padding-top: 1px;
+    margin-top: 2px;
     }
 
     h2 {
     font-size: 1em;
+    padding-left: 4px;
+    }
+
+    div.quadrado {
+        border: 2px solid black;
+        width: 400px;
+        height: 35px;
+        display: inline-block;
+        border-radius: 10px;
+    }
+
+    div.quadrado2 {
+        border: 2px solid black;
+        margin-bottom: 10px;
+        width: 400px;
+        height: 170px;
+        display: inline-block;
+        border-radius: 10px;
+    }
+
+    nav {
+        width: 70px;
+        background-color: #063d1e;
+        padding: 0px;
+        box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.501);
+        border-radius: 10px;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    nav > a {
+        color: #83e1ad;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        transition-duration: 0.5s;
+        vertical-align: middle;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav > a:hover{
+        background-color:#2fa866;
+        color: #063d1e;
     }
     </style>
 </head>
 <body>
     <main>
     <h1>Contate-nos</h1>
-        <p>Por favor, preencha esse formulário de contacto que retornaremos o mais breve possível!</p>
-    <h2>Nome Completo</h2>
-    <h2>E-mail</h2>
-    <h2>Mensagem</h2>
-    
+        <p>Por favor, preencha esse formulário de contacto <br>que retornaremos o mais breve possível!</p>
+    <h2>Nome Completo:</h2>
+    <div class="quadrado"></div>
+    <h2>E-mail:</h2>
+    <div class="quadrado"></div>
+    <h2>Mensagem:</h2>
+    <div class="quadrado2"></div>
+    <nav><a href="obrigado.html">Enviar</a></nav>
     </main>
+    <p><a href="home.html" rel="prev">Voltar para Home</a></p>
 </body>
 </html>
