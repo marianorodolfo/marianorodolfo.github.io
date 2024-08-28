@@ -1,19 +1,19 @@
 @charset "UTF-8";
 
 * {
-margin: 0px;
+margin-top: 0px;
 padding: 0px;
 font-family: Arial, Helvetica, sans-serif;
 }
 
 html, body {
-height: 110vh;
-width: 110vw;
+height: 107vh;
+width: 100vw;
 background-color: black;
 }
 
 main {
-height: 100vh;
+height: 90vh;
 position: relative;
 }
 
@@ -25,7 +25,7 @@ background-attachment: fixed;
 
 section#telefone {
 position: absolute;
-top: 50%;
+top:58%;
 left: 50%;
 transform: translate(-50%, -50%);
 
