@@ -1,83 +1,104 @@
-/* Reset básico */
-body, h1, h2, h3, p, input, button, table, th, td {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@charset "UTF-8";
 
-/* Estilos gerais */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    padding: 20px;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 header {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
+color: orange;
+padding-left: 45px;
 }
 
-main {
-    max-width: 800px;
-    margin: 20px auto;
-    background: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+body {
+font-family: "Gloria Hallelujah", cursive;
+font-variant: small-caps;
+background-color: black ;
+margin: 0px;
+padding: 0px;
+font-family: Arial, Helvetica, sans-serif;
 }
 
-form {
-    margin-bottom: 20px;
+section#navegacao img {
+display: block ;
+margin-top: 0px;
+padding-top: 0px;
+width: 60px;
+margin-top: 20px;
+border-radius: 50%;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+box-sizing: border-box;
 }
 
-input {
-    display: block;
-    width: calc(100% - 22px);
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+section#navegacao {
+margin-top: 0px;
+padding-top: 0px;
+text-align: right;
+background-size: cover;
+width: 100vw;
+height: 20vh;
 }
 
-button {
-    padding: 10px;
-    background-color: #333;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+section#navegacao img:hover {
+text-align: right;
+border: 2px solid rgba(255, 255, 255, 0.637);
+transform: translate(4px, 4px);
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+transition: transform 0.4s, border 0.8;
 }
 
-button:hover {
-    background-color: #555;
+section#navegacao2 img {
+display: block ;
+margin-top: 0px;
+padding-top: 0px;
+width: 90px;
+margin: 8px;
+border-radius: 50%;
+box-shadow: 2px 2px 5px blue;
+box-sizing: border-box;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
+section#navegacao2 {
+margin-top: 0px;
+padding-top: 0px;
+text-align: right;
+background-size: cover;
+width: 100vw;
+height: 20vh;
 }
 
-th, td {
-    padding: 10px;
-    border: 1px solid #ddd;
-    text-align: left;
+section#navegacao2 img:hover {
+text-align: right;
+border: 2px solid blue;
+transform: translate(4px, 4px);
+box-shadow: 5px 5px 10px blue;
+transition: transform 0.4s, border 0.8;
 }
 
-th {
-    background-color: #333;
-    color: white;
+section h1{
+font-family: "Gloria Hallelujah", cursive;;
+font-size: 4em;
+margin: 0px;
+padding-top:10px;
+margin-top: 0px;
+border-top: 0px;
+text-align: center;   
+color: orange
 }
 
-tfoot {
-    font-weight: bold;
-}
+main#menus{
+padding: 10px;
+min-width: 350px;
+max-width: 850px;
+margin: auto;
+margin-bottom: 10px;
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.526);
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+background-image: url(imagens/hamburger-2667443_1280.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+width: 100vw;
+height: 70vh;
+}   
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
+main h1 {
+padding-top: 0px;
+margin-top: 0px ;
 }
